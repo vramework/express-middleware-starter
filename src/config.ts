@@ -1,5 +1,5 @@
 import { LogLevel } from '@vramework/core'
-import { Config } from './api'
+import { Config } from './application-types'
 
 export const config: Config = {
   port: 4002,

@@ -1,7 +1,8 @@
 {
   "rootDir": ".",
   "routeDirectories": ["./src"],
-  "schemaOutputDirectory": "./generated",
-  "routesOutputFile": "./generated/routes.ts",
+  "schemaDirectory": "./generated",
+  "routesFile": "./generated/routes.ts",
+  "typesFile": "./src/vramework-types.ts",
   "tsconfig": "./tsconfig.json"
 }

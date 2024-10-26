@@ -5,7 +5,7 @@ import {
   type CreateBook,
   type JustBookId,
 } from './books.types'
-import { Services } from './api'
+import { Services } from './application-types'
 
 addRoute({
   auth: false,
