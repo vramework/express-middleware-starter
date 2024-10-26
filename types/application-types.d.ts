@@ -5,7 +5,7 @@ import {
   CoreUserSession,
   JWTService
 } from '@vramework/core'
-import { BookService } from './book.service'
+import { BookService } from '../src/book.service'
 
 export interface Config extends CoreServerConfig {}
 

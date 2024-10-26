@@ -11,8 +11,8 @@ import { vrameworkMiddleware } from '@vramework/express-middleware'
 import { config } from '../src/config'
 import { createSessionServices, createSingletonServices } from '../src/services'
 
-import '../generated/routes'
-import '../generated/schemas'
+import '../.vramework/routes'
+import '../.vramework/schemas'
 
 export class ExpressServer {
   public app: core.Express = express()

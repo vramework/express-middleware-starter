@@ -1,4 +1,4 @@
-import { Book, Books, CreateBook } from './books.types'
+import { Book, Books, CreateBook } from '../types/books.types'
 import { NotFoundError } from '@vramework/core'
 
 /**
